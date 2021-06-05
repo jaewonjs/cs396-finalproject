@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>Jaewon Shin</title>
+  </head>
+  <body>
+    <!-- Add some more background images, interactive components in next stage of dev. -->
+    <style>
+        body {
+            background-color: #00BFFF;
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+        .jumbotron {
+            color: white;
+            text-align: center;
+        }
+        .navbar-nav {
+            margin: auto;
+            color: bisque;
+        }
+        .row {
+            color: white;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .btn-primary {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+            width: auto;
+        }
+        .card {
+            color: black;
+            width: 15rem;
+            max-height: 170px;
+        }
+
+
+    </style>
+
+    <div class="jumbotron">
+        <h1>Jaewon Shin</h1>
+    </div>
+
+    <!-- May replace with a side-scrolling nav bar that dynamically reacts to where the user
+        is on the page.-->
+    <nav class="navbar navbar-expand-sm bg-light">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+    </nav>
+
+    <div class="row">
+        <h3>Zoom Bullies</h3>
+        <h4>Winter 2021</h4>
+        <div class="col-6">
+            <img src="bullies.jpeg" height="200px">
+            <p>
+                Problem Description: Have you ever been in a Zoom meeting where someone is dominating the
+                conversation? Even worse, has someone spent the whole meeting being unproductive or making
+                inappropriate comments? This was the problem we wanted to tackle. 
+            </p>
+            <p>
+                Tech Stack: We used ML models to create a live transcript that detected when participants made 
+                negative statements. Then we collected data throughout the meeting and once the meeting was ended,
+                we sent each participant a report about their meeting behavior.
+            </p>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+  </body>
+</html>
